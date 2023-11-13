@@ -21,7 +21,7 @@ $(document).ready(function () {
             let year = new Date().getFullYear() - new Date(datta).getFullYear()
             let month = new Date().getMonth() - new Date(datta).getMonth()
             let day = new Date().getDay() - new Date(datta).getDay()
-            let howold = $("#display").text(`you are ${year}yrs , ${month}months & ${day}days old`)
+            let howold = $("#display").text(`you are ${year}yrs , ${month}months &  ${day}days old`)
         }
 
         

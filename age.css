@@ -6,24 +6,28 @@ body{
     height: 100vh;
     background-color: black;
     
-    display: flex;
+    display:;
     justify-content: center;
-    align-items: center;
+    
     
 }
 #light{
     position: absolute;
     left: 5px;
-    top: 5px;
+    top: 270px;
+    background-color: chartreuse;
 }
 #dark{
     position: absolute;
-    right: 5px;
-    top: 5px;
+    right: 100px;
+    top: 270px;
+    background-color: chartreuse;
+    
 }
 .parent{
+    margin: 2rem;
     box-shadow: 0 0 5px #3a3f3a;
-    
+    width: 400px;
     border-radius: 5px;
     padding: 10px;
 }
@@ -43,5 +47,6 @@ body{
     min-height: 5rem;
     margin-top: 1rem;
     color: darkblue;
+    text-align: center;
    
 }
