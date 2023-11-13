@@ -11,19 +11,13 @@ body{
     
     
 }
-#light{
+.press{
+    position: relative;
     position: absolute;
-    left: 5px;
-    top: 270px;
-    background-color: chartreuse;
+    top: 250px;
 }
-#dark{
-    position: absolute;
-    right: 100px;
-    top: 270px;
-    background-color: chartreuse;
     
-}
+
 .parent{
     margin: 2rem;
     box-shadow: 0 0 5px #3a3f3a;
